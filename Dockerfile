@@ -5,7 +5,7 @@ FROM quay.io/projectquay/golang:1.17
 COPY src/hello-world.go /go/hello-world.go
 
 # Set the default environment variables
-ENV MESSAGE "Hello from my Private Repo build 4"
+ENV MESSAGE "Hello from github"
 ENV HOME /go
 
 # Set permissions to the /go folder (for OpenShift)
